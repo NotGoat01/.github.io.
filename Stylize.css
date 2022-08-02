@@ -1,0 +1,151 @@
+body{
+
+ background-image: url(https://th.bing.com/th/id/R.bc6688fa7932678bd009a9877e144db3?rik=HMQG1QCisVik5g&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20141023145545%2fpotcoplayers%2fimages%2f9%2f90%2fDirt-block-minecraft-sp2nzwri.jpg&ehk=IvGmVrYM1qNMxhs3mqCKBh4XgDzOQN6yQx38q5%2fLXUQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+
+ background-size: cover;
+font-family: serif;
+}
+
+div { 
+
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 69%;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+
+color: mediumpurple;
+
+}
+
+img {
+
+
+    
+    margin: auto;
+    border-color: black;
+    border-style: inset
+
+}
+
+iframe{
+
+    margin: auto;
+    display: block;
+
+}
+
+nav {
+
+display: inline;
+margin: 0;
+padding: 0;
+float: right;
+text-align: center;
+height: 60px;
+
+
+}
+
+ul {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+text-align: center;
+height: 60px;
+
+}
+
+li a {
+display: inline;
+background-color: transparent;
+color: darkgrey;
+}
+
+li a:hover {
+
+    background-color: transparent;
+    color: black;
+}
+
+.ROTS {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 69%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.BigLetter{
+
+
+    font-size: 2em;
+}
+
+.Color {
+
+
+
+    color: blanchedalmond;
+}
+
+.leftimage{
+
+    float: right;
+    width: 200px;
+    margin: 10px;
+}
+
+.rightimage{
+
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+/*small version*/
+@media only screen and (max-width: 600px) {
+
+    body{
+
+        background-color: white;}
+        p{
+
+        font-size: 0.7em;}
+    }
+/*Biggest Version*/
+@media only screen and (max-width: 1200px) {
+body{
+
+        background-color: white;}
+        p{
+
+        font-size: 1.7em;}
+        
+        .rightimage, .leftimage{ width: 400px; }
+        img, iframe { width: 400px }
+}
+/*Medium Version*/
+@media only screen and (min-width: 600) and (max-width: 1200px) {
+body{
+
+        background-color: white;}
+        p{
+
+        font-size: 1.7em;}
+        
+        .rightimage, .leftimage{ width: 250px; }
+    
+    img, iframe { width: 250px }
+
+}
